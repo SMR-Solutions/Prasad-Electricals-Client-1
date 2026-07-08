@@ -34,14 +34,25 @@ export default function Certifications() {
           </div>
         </div>
 
-        <div className="mt-12 max-w-2xl mx-auto rounded-xl overflow-hidden shadow-2xl border-4 border-brand-gold/20">
-          <Image
-            src="/certificate.jpeg"
-            alt="Government Certification - Prasad Electrical Works"
-            width={800}
-            height={600}
-            className="w-full h-auto object-contain"
-          />
+        <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8 items-center max-w-5xl mx-auto">
+          <div className="rounded-xl overflow-hidden shadow-2xl border-4 border-brand-gold/20 bg-white">
+            <Image
+              src="/certificate.jpeg"
+              alt="Government Certification - Prasad Electrical Works"
+              width={600}
+              height={800}
+              className="w-full h-auto object-contain"
+            />
+          </div>
+          <div className="rounded-xl overflow-hidden shadow-2xl border-4 border-brand-gold/20 bg-white">
+            <Image
+              src="/certificate1.jpeg"
+              alt="Additional Certification - Prasad Electrical Works"
+              width={800}
+              height={600}
+              className="w-full h-auto object-contain"
+            />
+          </div>
         </div>
       </div>
     </section>
