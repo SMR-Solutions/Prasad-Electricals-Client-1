@@ -9,11 +9,11 @@ export default function Certifications() {
           <Award className="w-12 h-12 text-brand-gold" />
         </div>
         <h2 className="text-3xl md:text-4xl font-bold text-brand-blue mb-6">
-          Certified & Recognized
+          Government Certified Electrician in Bengaluru
         </h2>
         <p className="text-lg md:text-xl text-slate-600 leading-relaxed mb-10">
-          We are proud to be officially certified and recognized by the{" "}
-          <strong className="text-brand-blue">Government of Bengaluru, Karnataka</strong>. Our commitment to safety, compliance, and excellence ensures your electrical systems are in the best hands.
+          Prasad Electrical Works is officially certified and recognized by the{" "}
+          <strong className="text-brand-blue">Government of Bengaluru, Karnataka</strong>. Our commitment to safety, compliance, and excellence ensures your home and business electrical systems in Srinivasapura, Yelahanka, and across Bengaluru are in the best hands.
         </p>
 
         <div className="flex flex-col sm:flex-row justify-center items-center gap-6">
@@ -38,7 +38,7 @@ export default function Certifications() {
           <div className="rounded-xl overflow-hidden shadow-2xl border-4 border-brand-gold/20 bg-white">
             <Image
               src="/certificate.jpeg"
-              alt="Government Certification - Prasad Electrical Works"
+              alt="Government Certification - Prasad Electrical Works Bengaluru - Certified Electrician in Srinivasapura Karnataka"
               width={600}
               height={800}
               className="w-full h-auto object-contain"
@@ -47,7 +47,7 @@ export default function Certifications() {
           <div className="rounded-xl overflow-hidden shadow-2xl border-4 border-brand-gold/20 bg-white">
             <Image
               src="/certificate1.jpeg"
-              alt="Additional Certification - Prasad Electrical Works"
+              alt="Karnataka Government Electrical Safety Certification - Best Electrician near Yelahanka Bengaluru"
               width={800}
               height={600}
               className="w-full h-auto object-contain"

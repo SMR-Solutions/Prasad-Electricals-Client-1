@@ -4,27 +4,27 @@ export default function Services() {
   const services = [
     {
       icon: <Home className="w-8 h-8 text-brand-gold" />,
-      title: "Complete Building Wiring",
+      title: "Complete Building Wiring in Bengaluru",
       description:
-        "Wiring from scratch for new homes and shops. Includes main electrical room layouts, meter panel installations, and safe internal house wiring.",
+        "Full house wiring and commercial building wiring from scratch for new homes and shops across Srinivasapura, Yelahanka, and Kengeri. Includes main electrical room layouts, meter panel installations, and safe internal wiring as per Karnataka government safety standards.",
     },
     {
       icon: <Wrench className="w-8 h-8 text-brand-gold" />,
-      title: "Basic Home Repairs",
+      title: "Home Electrical Repairs Near Me",
       description:
-        "Quick and reliable fixes for switches, sockets, fan installations, and troubleshooting electrical faults in your home.",
+        "Quick and reliable electrical repair services — switches, sockets, fan installations, and fault troubleshooting. Serving Jakkur, Agrahara Layout, Kogilu Layout, RR Nagar, and all nearby Bengaluru areas. Available for same-day emergency calls.",
     },
     {
       icon: <Zap className="w-8 h-8 text-brand-gold" />,
-      title: "Heavy-Duty Installations",
+      title: "UPS & Inverter Installation Bengaluru",
       description:
-        "Professional setup of UPS/inverters, generator connections, digital meters, and water motor connections.",
+        "Professional setup of UPS systems, inverter connections, generator wiring, digital meter installation, and water motor connections. Heavy-duty electrical installations for homes and businesses in Srinivasapura and surrounding areas.",
     },
     {
       icon: <Settings className="w-8 h-8 text-brand-gold" />,
-      title: "Lighting & Switchboards",
+      title: "Switchboard & LED Light Installation",
       description:
-        "Modern switchboard installations, LED lighting setups, and upgrading old panels to modern, safe standards.",
+        "Modern switchboard installation, LED lighting setups, panel upgrades, and old-to-new wiring conversions. Energy-efficient lighting solutions for homes and offices across Yelahanka, Kengeri, and all Bengaluru service areas.",
     },
   ];
 
@@ -33,10 +33,13 @@ export default function Services() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-brand-blue mb-4">
-            Our Electrical Services
+            Electrical Services in Srinivasapura &amp; Bengaluru
           </h2>
           <p className="text-lg text-slate-600">
-            Professional, safe, and transparent services for all your residential and commercial needs.
+            Government-certified, professional, and transparent electrical
+            services for all your residential and commercial needs. Serving
+            Yelahanka, Jakkur, Kengeri, Agrahara Layout, Kogilu Layout &amp; RR
+            Nagar.
           </p>
         </div>
 

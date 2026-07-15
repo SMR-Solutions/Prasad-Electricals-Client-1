@@ -56,7 +56,9 @@ export default function Navbar() {
               </a>
             ))}
             <a
-              href="tel:09148842696"
+              href="tel:+919148842696"
+              id="navbar-call-button"
+              aria-label="Call Prasad Electrical Works at +91 91488 42696"
               className="flex items-center gap-2 bg-brand-blue text-white px-5 py-2.5 rounded-full font-semibold hover:bg-brand-blue/90 transition-all shadow-md hover:shadow-lg active:scale-95"
             >
               <Phone size={18} />
@@ -91,11 +93,12 @@ export default function Navbar() {
               </a>
             ))}
             <a
-              href="tel:09148842696"
+              href="tel:+919148842696"
+              aria-label="Call Prasad Electrical Works"
               className="mt-6 flex items-center justify-center gap-2 w-full bg-brand-gold text-brand-blue px-5 py-4 rounded-xl font-black text-lg shadow-md hover:bg-yellow-400"
             >
               <Phone size={22} />
-              Call 091488 42696
+              Call +91 91488 42696
             </a>
           </div>
         </div>
